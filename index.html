@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER APP</title>
+    <link rel="shortcut icon" href="./Assets/weather-icon.webp" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playwrite+DE+Grund:wght@100..400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main id="main_container">
+        <section id="card_container">
+          <form>
+            <input type="text" placeholder="Enter your Location" id="Location">
+            <input type="submit" value="Get Weather" id="weather">
+          </form>
+          <article id="img_container" >
+            <img src="./Assets/weather-icon.webp" alt="" id="img">
+            <h3>NULL</h3>
+          </article>
+          <article id="temp_humid">
+            <aside id="temp">
+         <h1 id="temp1">TEMPERATURE</h1>
+         <p id="temperature"><sup>0</sup>C</p>
+            </aside>
+            <aside id="humid">
+                <h1 id="humid">HUMIDITY </h1>
+                <p id="humidity">KMPH</p>
+                   </aside>
+
+          </article>
+        </section>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
